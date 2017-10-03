@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="../static/philosophy.css">
+<link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+<body>
+<nav class="navbar">
+	<div class="font">
+	<div class="navbar-header"><a class="navbar-brand">Incubator</a></div>
+	</div>
+				<ul class="nav nav-pills">
+					<button class="nav-item btn navbar-btn" name="profile"><a class="nav-link active" href="/home">Home</a></button>
+					<button class="nav-item btn navbar-btn" name="logout"><a class="nav-link active" href="/profile">Profile</a></button>
+					<button class="nav-item btn navbar-btn" name="logout"><a class="nav-link active" href="/signin">Log out</a></button>
+				</ul>
+				</nav>
+	<h1 class="center"> Philosophy </h1>
+
+	<p class ="center">{{at}} {{ time }} {{ home }} {{text}} {{ posted }} </p>
+
+	<form method=POST class ="center bottom" action="/philosophy">
+		
+		Say something about philosophy: <input class="resize" type="text" name="say1">
+		<input type="submit" value="Submit">
+		
+	</form>
+
+
+
+</body>

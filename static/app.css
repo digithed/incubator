@@ -1,0 +1,87 @@
+.black {
+	color: black;
+}
+
+.gray {
+    color: gray;
+}
+
+.white {
+    color: white;
+}
+
+.space {
+	margin-right: 20px;
+	
+}
+
+.space-nav {
+	text-align: right;
+}
+
+.center {
+	margin-left: 200px;
+}
+
+.center2 {
+	margin-left: 150px;
+}
+
+.font {
+    font-family: "Bookman", Georgia;
+    margin-top: 20px;
+}
+
+.font-nav{
+    font-family: "Bookman", Georgia;
+    color: white;
+}
+.box{
+    border-style: solid;
+    border-thickness: 200px;
+    background-color: rgb(64,64,64);
+}
+.fadeImage {
+    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 4s; /* Firefox < 16 */
+        -ms-animation: fadein 4s; /* Internet Explorer */
+         -o-animation: fadein 4s; /* Opera < 12.1 */
+            animation: fadein 4s;
+    display: block;
+    margin: 25px auto;
+}
+
+.resize {
+	max-height: 800px;
+	max-width: 800px;
+	
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}

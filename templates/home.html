@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="../static/home.css">
+<link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+
+<body class="contain">
+	<nav class="navbar">
+	<div class="font">
+	<div class="navbar-header"><a class="navbar-brand">Incubator</a></div>
+	</div>
+				<ul class="nav nav-pills">
+					<button class="nav-item btn navbar-btn" name="profile"><a class="nav-link active" href="/profile">Profile</a></button>
+					<button class="nav-item btn navbar-btn" name="logout"><a class="nav-link active" href="/signin">Log out</a></button>
+				</ul>
+				</nav>
+		
+			<div class="center">
+			<h1>Welcome {{ home }}!</h1>
+			</div>
+			<h2>Categories</h2>
+			<ul>
+				<li class="active"><a href ="/writing">Writing</a></li>
+				<li class="active"><a href="/philosophy">Philosophy</a></li>
+				<li class="active"><a href="/computers">Computers</a></li>
+			</ul>
+		
+
+
+
+</body>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="../static/computers.css">
+
+<body>
+<nav class="navbar">
+	<div class="font">
+	<div class="navbar-header"><a class="navbar-brand">Incubator</a></div>
+	</div>
+				<ul class="nav nav-pills">
+					<button class="nav-item btn navbar-btn" name="profile"><a class="nav-link active" href="/home">Home</a></button>
+					<button class="nav-item btn navbar-btn" name="logout"><a class="nav-link active" href="/profile">Profile</a></button>
+					<button class="nav-item btn navbar-btn" name="logout"><a class="nav-link active" href="/signin">Log out</a></button>
+				</ul>
+				</nav>
+	<h1 class="center"> Computers </h1>
+
+	<p class ="center">{{at}} {{ time }} {{ home }} {{text}} {{ posted }} </p>
+
+	<form method=POST class ="center bottom white" action="/computers">
+		
+		Say something about computers: <input class="resize" type="text" name="say">
+		<input type="submit" value="Submit">
+		</form>
+		<form class="center">
+		<!--<input type="submit" value="Check" name="check">!-->
+		</form>
+
+
+</body>

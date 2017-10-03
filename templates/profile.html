@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="../static/home.css">
+<link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+
+<body>
+<nav class="navbar">
+	<div class="font">
+	<div class="navbar-header"><a class="navbar-brand">Incubator</a></div>
+	</div>
+				<ul class="nav nav-pills">
+					<button class="nav-item btn navbar-btn" name="profile"><a class="nav-link active" href="/home">Home</a></button>
+					<button class="nav-item btn navbar-btn" name="logout"><a class="nav-link active" href="/signin">Log out</a></button>
+				</ul>
+				</nav>
+<div class="center">
+<h1>{{ home }}</h1>
+<h2> Time profile created: {{ now }} </h2>
+<h3> Number of posts: {{ numofposts }}</h3>
+</div>
+</body>

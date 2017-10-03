@@ -1,0 +1,20 @@
+.center {
+	text-align: center;
+
+}
+.white {
+	color:white;
+}
+.resize {
+	width: 300px;
+	height: 50px;
+}
+.bottom {
+	margin-top: 200px;
+	margin-right: 200px;
+}
+
+body {
+	background-image: url("https://static.pexels.com/photos/50711/board-electronics-computer-data-processing-50711.jpeg");
+	background-size: cover;
+}

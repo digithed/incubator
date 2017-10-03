@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="../static/signup.css">
+ <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+ <link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+<head>
+	<title></title>
+
+
+</head>
+
+<body>
+	<div class="container">
+	<nav class="navbar box">
+	<div class="font-nav">
+	<div class="navbar-header"><a class="navbar-brand">Incubator</a></div>
+	</div>
+				<ul class="nav nav-pills">
+					<button class="nav-item space btn navbar-btn"><a class="nav-link active" href="/">Home</a></button>
+					<button class="nav-item btn navbar-btn"><a class="nav-link active" href="/signin">Sign in</a></button>
+				</ul>
+				</nav>
+		<div class = "jumbotron">
+		<div class="center">
+			<h1>Sign up and get Incubating!</h1>
+		</div>
+			<form class= "form-signin" method=POST action="{{ url_for('signup')}}">
+			<label for="inputName" class="sr-only form-signin">Username</label>
+			<input type="name" name="inputName" id="inputName" class="form-control" placeholder="Username" required autofocus>
+       	    <label for="inputEmail" class="sr-only">Email address</label>
+        	<input type="email" name="inputEmail" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+        	<label for="inputPassword" class="sr-only">Password</label>
+        	<input type="password" name="inputPassword" id="inputPassword" class="form-control" placeholder="Password" required>
+         
+        	<button id="btnSignUp" name="btnsignup" class="btn btn-lg btn-primary btn-block" type="submit">Sign up</button>
+			</form>
+			<img src="https://static.pexels.com/photos/34950/pexels-photo.jpg" alt = "Image" class="resize fadeImage" />
+          </div>
+            
+        </div>
+		</div>
+
+
+
+
+
+	</div>
+
+
+
+
+</body>
