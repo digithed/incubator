@@ -8,8 +8,8 @@ from fuzzywuzzy import process
 
 app = Flask(__name__)
 
-app.config['MONGO_DBNAME'] = 'mydb'
-app.config['MONGO_URI'] = 'mongodb://digithed:obx4life@ds149724.mlab.com:49724/mydb'
+app.config['MONGO_DBNAME'] = #removed for confidentiality purposes
+app.config['MONGO_URI'] = #removed for confidentiality purposes
 mongo = PyMongo(app)
 
 hey = datetime.now()
@@ -117,5 +117,5 @@ def computers():
 	return render_template('computers.html')
 
 if __name__ == "__main__":
-	app.secret_key = 'nicksecret'
+	app.secret_key = #removed for confidentiality purposes
 	app.run()
